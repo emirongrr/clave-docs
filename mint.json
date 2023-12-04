@@ -40,13 +40,13 @@
     {
       "group": "Typescript SDK",
       "pages": [
-        "/sdk/introduction",
+        "sdk/introduction",
         {
           "group": "Typescript SDK",
           "pages": [
-            "/sdk/typescript/initialize",
-            "/sdk/typescript/transactions",
-            "/sdk/typescript/social-recovery"
+            "sdk/typescript/initialize",
+            "sdk/typescript/transactions",
+            "sdk/typescript/social-recovery"
           ]
         }
       ]
