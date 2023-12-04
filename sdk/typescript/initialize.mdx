@@ -14,7 +14,6 @@ You can simple call the `ClaveSDK` class with the parameters you want to use, or
 import { ClaveSDK } from '@getclave/sdk';
 import { Provider } from "zksync-web3"
 
-/** With valid parameters */
 const provider = new Provider("RPC_URL")
 
 const claveSDK = new ClaveSDK({
@@ -32,12 +31,10 @@ const claveSDK = new ClaveSDK({
 import { ClaveSDK } from '@getclave/sdk';
 import { Provider } from "zksync-web3"
 
-
 const claveSDK = new ClaveSDK()
 
 // You can init when you have the parameters
 
-/** With valid parameters */
 const provider = new Provider("RPC_URL")
 
 claveSDK.init({
