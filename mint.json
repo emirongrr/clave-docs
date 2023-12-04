@@ -28,28 +28,45 @@
   "tabs": [],
   "navigation": [
     {
-      "group": "Clave Mobile App",
+      "group": "Clave",
       "pages": [
-        "introduction",
+        "about",
+        "onboarding",
         "social-recovery",
         "cloud-recovery",
-        "paymaster",
-        "portfolio",
-        "transaction-history",
-        "preferences"
+        "paymaster"
+      ]
+    },
+    {
+      "group": "Typescript SDK",
+      "pages": [
+        "/sdk/introduction",
+        {
+          "group": "Typescript SDK",
+          "pages": [
+            "/sdk/typescript/initialize",
+            "/sdk/typescript/transactions",
+            "/sdk/typescript/social-recovery"
+          ]
+        }
       ]
     }
   ],
   "anchors": [
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://blog.getclave.io"
+    },
     {
       "name": "X (Twitter)",
       "icon": "twitter",
       "url": "https://x.com/getclave"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://blog.getclave.io"
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/getclave"
     }
   ],
   "footerSocials": {

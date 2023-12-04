@@ -1,0 +1,37 @@
+---
+title: Social Recovery
+description: "This section gives information about Social Recovery method that Clave implements."
+---
+
+Clave implements a social recovery method that allows users to recover their accounts by using their friends' help.
+You are able to add any wallet on zkSync (Clave account, Address, or ENS) as your `guardian`, who are available to recovery account in specific `timelock`.
+
+
+<Card>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/ATAUI9i27RM?si=__d1jtirDuZwgQbb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</Card>
+
+<AccordionGroup>
+  <Accordion title="How many guardians can I add?">
+    You are able to add infinite number of guardians on Smart Contract level. However, we limit guardian count to `3` in Clave Wallet user interface to not make the process complex and less secure.
+  </Accordion>
+
+  <Accordion title="Can I remove the guardians after adding them?">
+    `Yes`, you are able to remove guardians whenever you want, except your recovery is on process. You can stop the recovery process to remove the guardians.
+  </Accordion>
+
+  <Accordion title="How many guardian approvals do I need to recover my account?">
+    In Clave Wallet, one confirmation is enough to recover your account. However, you are able to set the `threshold` value in Smart Contract level to adjust the number of approvals.
+  </Accordion>
+
+  <Accordion title="What if my guardians act suspicious?">
+    Guardians are expected to be the people you trust. `You will receive email when the recovery process of your account starts`.
+    If your guardians act suspicious and try recovering your account without your information, you can cancel the recovery process and remove the guardian.
+  </Accordion>
+
+  <Accordion title="How long should I wait to execute my recovery?">
+    The default `timelock` value in Clave Wallet is `48 hours`. We are planning to make it adjustable in the future, since this feature is available in the Smart Contract.
+  </Accordion>
+
+
+</AccordionGroup>
