@@ -31,24 +31,34 @@
       "group": "Clave",
       "pages": [
         "about",
-        "onboarding",
-        "social-recovery",
-        "cloud-recovery",
-        "paymaster"
-      ]
-    },
-    {
-      "group": "Typescript SDK",
-      "pages": [
-        "sdk/introduction",
+        "how-to-create-account",
+        "how-to-fund-your-wallet-on-zksync",
         {
-          "group": "Typescript SDK",
+          "group": "What is Passkey",
           "pages": [
-            "sdk/typescript/initialize",
-            "sdk/typescript/transactions",
-            "sdk/typescript/social-recovery"
+            "what-is-passkey",
+            {
+              "group": "Apple Users",
+              "pages": [
+                "icloud-keychain",
+                "1password"
+              ]
+            },
+            {
+              "group": "Android Users",
+              "pages": [
+                "google-password-manager",
+                "samsung-pass"
+              ]
+            }
           ]
-        }
+        },
+        "how-to-fund-your-wallet-from-other-chains",
+        "how-to-swap-your-tokens",
+        "how-to-send-money-via-clave",
+        "how-to-send-money-with-link",
+        "how-to-assign-guardians",
+        "how-to-recover"
       ]
     }
   ],
