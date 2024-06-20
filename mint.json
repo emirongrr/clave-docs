@@ -64,6 +64,14 @@
             "how-to-recover",
             "how-earn-works"
           ]
+        },
+        {
+          "group": "How Clave Works?",
+          "pages": [
+            "meet-with-clave",
+            "clave-authentication",
+            "social-recovery"
+          ]
         }
       ]
     }
