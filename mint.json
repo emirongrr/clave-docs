@@ -31,34 +31,40 @@
       "group": "Clave",
       "pages": [
         "about",
-        "how-to-create-account",
-        "how-to-fund-your-wallet-on-zksync",
         {
-          "group": "What is Passkey",
+          "group": "Clave Guides",
           "pages": [
-            "what-is-passkey",
+            "how-to-create-account",
+            "how-to-fund-your-wallet-on-zksync",
             {
-              "group": "Apple Users",
+              "group": "What is Passkey",
               "pages": [
-                "icloud-keychain",
-                "1password"
+                "what-is-passkey",
+                {
+                  "group": "Apple Users",
+                  "pages": [
+                    "icloud-keychain",
+                    "1password"
+                  ]
+                },
+                {
+                  "group": "Android Users",
+                  "pages": [
+                    "google-password-manager",
+                    "samsung-pass"
+                  ]
+                }
               ]
             },
-            {
-              "group": "Android Users",
-              "pages": [
-                "google-password-manager",
-                "samsung-pass"
-              ]
-            }
+            "how-to-fund-your-wallet-from-other-chains",
+            "how-to-swap-your-tokens",
+            "how-to-send-money-via-clave",
+            "how-to-send-money-with-link",
+            "how-to-assign-guardians",
+            "how-to-recover",
+            "how-earn-works"
           ]
-        },
-        "how-to-fund-your-wallet-from-other-chains",
-        "how-to-swap-your-tokens",
-        "how-to-send-money-via-clave",
-        "how-to-send-money-with-link",
-        "how-to-assign-guardians",
-        "how-to-recover"
+        }
       ]
     }
   ],
