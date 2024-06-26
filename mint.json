@@ -34,35 +34,51 @@
         {
           "group": "Clave Guides",
           "pages": [
-            "how-to-create-account",
-            "how-to-fund-your-wallet-on-zksync",
             {
-              "group": "What is Passkey",
+              "group": "Basics",
               "pages": [
-                "what-is-passkey",
-                {
-                  "group": "Apple Users",
-                  "pages": [
-                    "icloud-keychain",
-                    "1password"
-                  ]
-                },
-                {
-                  "group": "Android Users",
-                  "pages": [
-                    "google-password-manager",
-                    "samsung-pass"
-                  ]
-                }
+                "how-to-create-account",
+                "how-to-fund-your-wallet-from-other-chains",
+                "how-to-fund-your-wallet-on-zksync",
+                "what-is-passkey"
               ]
             },
-            "how-to-fund-your-wallet-from-other-chains",
-            "how-to-swap-your-tokens",
-            "how-to-send-money-via-clave",
-            "how-to-send-money-with-link",
-            "how-to-assign-guardians",
-            "how-to-recover",
-            "how-earn-works"
+            {
+              "group": "Send & Receive",
+              "pages": [
+                "how-to-send-money-via-clave",
+                "how-to-send-money-with-link",
+                "how-to-withdraw"
+              ]
+            },
+            {
+              "group": "Swap",
+              "pages": [
+                "how-to-swap-your-tokens"
+              ]
+            },
+            {
+              "group": "Earn",
+              "pages": [
+                "dex-pools",
+                "one-sided",
+                "earn-types"
+              ]
+            },
+            {
+              "group": "Account Security/Management",
+              "pages": [
+                "how-to-assign-guardians",
+                "how-to-recover-clave",
+                "how-to-recover-eoa"
+              ]
+            },
+            {
+              "group": "Split",
+              "pages": [
+                "how-split-works"
+              ]
+            }
           ]
         },
         {
