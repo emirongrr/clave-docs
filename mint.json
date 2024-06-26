@@ -76,7 +76,9 @@
             {
               "group": "Split",
               "pages": [
-                "how-split-works"
+                "how-split-works",
+                "split-use",
+                "pay-debts"
               ]
             }
           ]
