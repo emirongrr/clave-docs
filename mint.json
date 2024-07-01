@@ -40,7 +40,28 @@
                 "how-to-create-account",
                 "how-to-fund-your-wallet-from-other-chains",
                 "how-to-fund-your-wallet-on-zksync",
-                "what-is-passkey"
+                {
+                  "group": "What is Passkey",
+                  "pages": [
+                    {
+                      "group": "Android Users",
+                      "pages": [
+                        "samsung-pass",
+                        "google-password-manager",
+                        "1password",
+                        "bitwarden-android"
+                      ]
+                    },
+                    {
+                      "group": "Apple Users",
+                      "pages": [
+                        "1password-apple",
+                        "icloud-keychain",
+                        "bitwarden-apple"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
