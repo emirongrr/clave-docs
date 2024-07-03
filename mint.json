@@ -30,6 +30,7 @@
     {
       "group": "Clave",
       "pages": [
+        "welcome-to-clave",
         "about",
         {
           "group": "Clave Guides",
@@ -57,12 +58,14 @@
                       "pages": [
                         "1password-apple",
                         "icloud-keychain",
-                        "bitwarden-apple"
+                        "bitwarden-apple",
+                        "passkey-rename"
                       ]
                     }
                   ]
                 },
-                "problem-solving"
+                "problem-solving",
+                "custom-tokens"
               ]
             },
             {
@@ -92,7 +95,15 @@
               "pages": [
                 "how-to-assign-guardians",
                 "how-to-recover-clave",
-                "how-to-recover-eoa"
+                "how-to-recover-eoa",
+                "how-to-cancel-your-recovery"
+              ]
+            },
+            {
+              "group": "Wallet Connect Connections",
+              "pages": [
+                "wc-connect",
+                "wc-sessions"
               ]
             },
             {
