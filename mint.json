@@ -64,8 +64,8 @@
                     }
                   ]
                 },
-                "problem-solving",
-                "custom-tokens"
+                "custom-tokens",
+                "problem-solving"
               ]
             },
             {
@@ -96,7 +96,8 @@
                 "how-to-assign-guardians",
                 "how-to-recover-clave",
                 "how-to-recover-eoa",
-                "how-to-cancel-your-recovery"
+                "how-to-cancel-your-recovery",
+                "remove-guardian"
               ]
             },
             {
@@ -114,14 +115,6 @@
                 "pay-debts"
               ]
             }
-          ]
-        },
-        {
-          "group": "How Clave Works?",
-          "pages": [
-            "meet-with-clave",
-            "clave-authentication",
-            "social-recovery"
           ]
         }
       ]
