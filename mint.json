@@ -39,8 +39,8 @@
               "group": "Basics",
               "pages": [
                 "how-to-create-account",
-                "how-to-fund-your-wallet-from-other-chains",
                 "how-to-fund-your-wallet-on-zksync",
+                "how-to-fund-your-wallet-from-other-chains",
                 {
                   "group": "What is Passkey",
                   "pages": [
@@ -49,7 +49,6 @@
                       "pages": [
                         "samsung-pass",
                         "google-password-manager",
-                        "1password",
                         "bitwarden-android"
                       ]
                     },
