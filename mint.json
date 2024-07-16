@@ -47,16 +47,16 @@
                     {
                       "group": "Android Users",
                       "pages": [
-                        "samsung-pass",
                         "google-password-manager",
-                        "bitwarden-android"
+                        "bitwarden-android",
+                        "samsung-pass"
                       ]
                     },
                     {
                       "group": "Apple Users",
                       "pages": [
-                        "1password-apple",
                         "icloud-keychain",
+                        "1password-apple",
                         "bitwarden-apple",
                         "passkey-rename"
                       ]
