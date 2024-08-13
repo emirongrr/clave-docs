@@ -1,0 +1,42 @@
+---
+title: 'Recovery Methods at Clave'
+description: "If a User Lose All of Their Devices, Their Keys are Being Non Accessible, Given That the Key Within The Secure Enclave is non-extractable. To Address This Problem, Clave Has Developed a Recovery Mechanism."
+---
+An ideal recovery mechanism is an indispensable aspect of digital asset security, especially when utilizing advanced technologies like Passkey Signing. The perfect recovery solution should be user-friendly, resistant to censorship, cheap, efficient, and devoid of introducing any additional trust assumptions.
+
+Recognizing the critical importance of a solid recovery solution, Clave has implemented a comprehensive recovery mechanism at Clave, which includes a 48-hour time lock feature designed to reduce the risk from malicious actors.
+
+### Characteristics of an Ideal Recovery Mechanism:
+- **User-Friendly:** The mechanism should be intuitive and accessible, ensuring that users, regardless of their technical proficiency, can navigate through the recovery process with ease and precision.
+
+- **Censorship-Resistant:** It should be impervious to external manipulations and interferences, enabling users to have uninterrupted access to their assets in varied geopolitical landscapes.
+
+- **Economically Viable:** The cost implications of utilizing the recovery mechanism should be minimal, allowing users from different economic backgrounds to benefit from the service.
+
+- **Efficient:** The process should be streamlined and prompt, ensuring users can regain access to their assets without undue delays or complications.
+
+- **No Additional Trust Assumptions:** It is crucial that the mechanism does not necessitate the introduction of any new trust assumptions, maintaining the integrity and security of the user's assets.
+### The 48-Hour Time Lock:
+The incorporation of a 48-hour time lock in both recovery mechanisms is a deliberate measure designed to prevent potential unauthorized access and malicious activities. After beginning the recovery process, the user receives a notification from the Clave app and/or email and is given 48 hours to cancel the recovery. This provides a recovery mechanism without introducing new trust assumptions, as the user maintains complete control over their assets.
+
+## First Recovery Option: Native Recovery with Passkeys
+Passkeys are designed as a secure and user-friendly alternative to traditional passwords, utilizing a technology that greatly eliminates the risk of phishing. This system involves the creation of a unique pair of cryptographic keys for each account: a public key, which is openly stored on the server, and a private key, which remains confidential and is securely held on the user's device.
+
+When a user creates an account with passkeys, the encrypted version of the private key is synced via the Cloud. This means that if users lose their device, they can recover the key from other devices if the device is selected as a "trusted device". The Passkeys are encrypted via Secure Enclave (biometrics), and the encrypted version is shared via Cloud. This means that even if the Cloud gets compromised, no one can access it.
+
+This recovery method native to Passkeys has a flaw: if you lose all devices, you cannot recover your account. Thus, we've implemented Social Recovery.
+
+## Second Recovery Option: Social Recovery
+Instead of using iCloud or Google Drive, users can pick family or friends to help them get their account back if needed. Users can do this by giving the friend’s or family member’s Clave nickname or address. After picking a guardian, there’s a 48-hour wait time during which users can change their mind and stop the process if they want to.
+
+To start getting their account back using a new device, users need to give their helper’s Clave nickname or address. Clave will then make a link that users send to their helpers. Like when picking a guardian, there’s a 48-hour wait time during the recovery process, giving users a chance to stop it from the original device if needed.
+
+This way, called Social Recovery, is all about giving users more choices to keep their accounts safe, mixing security with the help of friends or family, and making it all easy to manage.
+
+![Social Recovery Mechanism Clave](./images/recoverypic1.png)
+
+
+## Third Recovery Option: Universal Recovery with ZK-Email
+Social Recovery is a powerful tool, but it comes with a limitation: the Guardian must have an on-chain address. To overcome this, Clave has introduced a new recovery method called Universal Recovery, which allows anyone to become a Clave Guardian using their email accounts.
+
+Universal Recovery leverages ZK Email to verify DKIM signatures, ensuring a secure and trustless operation. This innovative approach expands the accessibility of guardianship without compromising security. For more technical details, refer to the [next section]("zkemail-recovery-technical").

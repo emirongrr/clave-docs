@@ -31,93 +31,128 @@
       "group": "Clave",
       "pages": [
         "welcome-to-clave",
-        "about",
+        "about"
+      ],
+      "version": "EN"
+    },
+    {
+      "group": "Clave Guides",
+      "pages": [
         {
-          "group": "Clave Guides",
+          "group": "Basics",
           "pages": [
+            "en/how-to-create-account",
+            "how-to-fund-your-wallet-on-zksync",
+            "how-to-fund-your-wallet-from-other-chains",
             {
-              "group": "Basics",
+              "group": "Creating Passkeys",
               "pages": [
-                "how-to-create-account",
-                "how-to-fund-your-wallet-on-zksync",
-                "how-to-fund-your-wallet-from-other-chains",
                 {
-                  "group": "What is Passkey",
+                  "group": "Android Users",
                   "pages": [
-                    {
-                      "group": "Android Users",
-                      "pages": [
-                        "google-password-manager",
-                        "bitwarden-android",
-                        "samsung-pass"
-                      ]
-                    },
-                    {
-                      "group": "Apple Users",
-                      "pages": [
-                        "icloud-keychain",
-                        "1password-apple",
-                        "bitwarden-apple",
-                        "passkey-rename"
-                      ]
-                    }
+                    "google-password-manager",
+                    "bitwarden-android",
+                    "samsung-pass"
                   ]
                 },
-                "custom-tokens",
-                "problem-solving"
+                {
+                  "group": "Apple Users",
+                  "pages": [
+                    "icloud-keychain",
+                    "1password-apple",
+                    "bitwarden-apple",
+                    "passkey-rename"
+                  ]
+                }
+              ]
+            },
+            "custom-tokens",
+            "problem-solving"
+          ]
+        },
+        {
+          "group": "Send & Receive",
+          "pages": [
+            "how-to-send-money-via-clave",
+            "how-to-send-money-with-link",
+            "how-to-withdraw"
+          ]
+        },
+        {
+          "group": "Swap",
+          "pages": [
+            "how-to-swap-your-tokens"
+          ]
+        },
+        {
+          "group": "Earn",
+          "pages": [
+            "dex-pools",
+            "one-sided",
+            "earn-types"
+          ]
+        },
+        {
+          "group": "Account Security/Management",
+          "pages": [
+            "how-to-assign-guardians",
+            "how-to-recover-clave",
+            "how-to-recover-eoa",
+            "how-to-cancel-your-recovery",
+            "remove-guardian"
+          ]
+        },
+        {
+          "group": "Wallet Connect Connections",
+          "pages": [
+            "wc-connect",
+            "wc-sessions"
+          ]
+        },
+        {
+          "group": "Split",
+          "pages": [
+            "how-split-works",
+            "split-use",
+            "pay-debts"
+          ]
+        }
+      ],
+      "version": "EN"
+    },
+    {
+      "group": "Clave Technical Explainers",
+      "pages": [
+        "technical-introduction",
+        "zksync-aa-explainer",
+        {
+          "group": "Clave's Key Management System",
+          "pages": [
+            "clave-key-management",
+            {
+              "group": "Passkey Signer",
+              "pages": [
+                "passkeys-technical",
+                "secure-enclave-technical"
               ]
             },
             {
-              "group": "Send & Receive",
+              "group": "Recovery Mechanisms",
               "pages": [
-                "how-to-send-money-via-clave",
-                "how-to-send-money-with-link",
-                "how-to-withdraw"
-              ]
-            },
-            {
-              "group": "Swap",
-              "pages": [
-                "how-to-swap-your-tokens"
-              ]
-            },
-            {
-              "group": "Earn",
-              "pages": [
-                "dex-pools",
-                "one-sided",
-                "earn-types"
-              ]
-            },
-            {
-              "group": "Account Security/Management",
-              "pages": [
-                "how-to-assign-guardians",
-                "how-to-recover-clave",
-                "how-to-recover-eoa",
-                "how-to-cancel-your-recovery",
-                "remove-guardian"
-              ]
-            },
-            {
-              "group": "Wallet Connect Connections",
-              "pages": [
-                "wc-connect",
-                "wc-sessions"
-              ]
-            },
-            {
-              "group": "Split",
-              "pages": [
-                "how-split-works",
-                "split-use",
-                "pay-debts"
+                "recovery-technical",
+                "zkemail-recovery-technical"
               ]
             }
           ]
-        }
-      ]
+        },
+        "clave-ens-subname"
+      ],
+      "version": "EN"
     }
+  ],
+  "versions": [
+    "EN",
+    "TR"
   ],
   "anchors": [
     {
