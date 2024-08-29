@@ -284,6 +284,13 @@
         "tr/clave-ens-subname"
       ],
       "version": "TR"
+    },
+    {
+      "group": "Clave",
+      "pages": [
+        "en/how-to-contribute-to-clave"
+      ],
+      "version": "EN"
     }
   ],
   "versions": [
