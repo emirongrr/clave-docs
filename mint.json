@@ -29,10 +29,7 @@
   "navigation": [
     {
       "group": "Clave",
-      "pages": [
-        "en/welcome-to-clave",
-        "en/about"
-      ],
+      "pages": ["en/welcome-to-clave", "en/about"],
       "version": "EN"
     },
     {
@@ -82,18 +79,12 @@
         },
         {
           "group": "Swap",
-          "pages": [
-            "en/how-to-swap-your-tokens"
-          ],
+          "pages": ["en/how-to-swap-your-tokens"],
           "version": "EN"
         },
         {
           "group": "Earn",
-          "pages": [
-            "en/dex-pools",
-            "en/one-sided",
-            "en/earn-types"
-          ],
+          "pages": ["en/dex-pools", "en/one-sided", "en/earn-types"],
           "version": "EN"
         },
         {
@@ -109,19 +100,12 @@
         },
         {
           "group": "Wallet Connect Connections",
-          "pages": [
-            "en/wc-connect",
-            "en/wc-sessions"
-          ],
+          "pages": ["en/wc-connect", "en/wc-sessions"],
           "version": "EN"
         },
         {
           "group": "Split",
-          "pages": [
-            "en/how-split-works",
-            "en/split-use",
-            "en/pay-debts"
-          ],
+          "pages": ["en/how-split-works", "en/split-use", "en/pay-debts"],
           "version": "EN"
         }
       ],
@@ -138,10 +122,7 @@
             "en/clave-key-management",
             {
               "group": "Passkey Signer",
-              "pages": [
-                "en/passkeys-technical",
-                "en/secure-enclave-technical"
-              ]
+              "pages": ["en/passkeys-technical", "en/secure-enclave-technical"]
             },
             {
               "group": "Recovery Mechanisms",
@@ -158,10 +139,7 @@
     },
     {
       "group": "Clave",
-      "pages": [
-        "tr/welcome-to-clave",
-        "tr/about-tr"
-      ],
+      "pages": ["tr/welcome-to-clave", "tr/about-tr"],
       "version": "TR"
     },
     {
@@ -211,18 +189,12 @@
         },
         {
           "group": "Takas Yapma",
-          "pages": [
-            "tr/how-to-swap-your-tokens"
-          ],
+          "pages": ["tr/how-to-swap-your-tokens"],
           "version": "TR"
         },
         {
           "group": "Yatirim",
-          "pages": [
-            "tr/dex-pools",
-            "tr/one-sided",
-            "tr/earn-types"
-          ],
+          "pages": ["tr/dex-pools", "tr/one-sided", "tr/earn-types"],
           "version": "TR"
         },
         {
@@ -238,19 +210,12 @@
         },
         {
           "group": "Wallet Connect Baglantileri",
-          "pages": [
-            "tr/wc-connect",
-            "tr/wc-sessions"
-          ],
+          "pages": ["tr/wc-connect", "tr/wc-sessions"],
           "version": "TR"
         },
         {
           "group": "Harcama Bolusturme",
-          "pages": [
-            "tr/how-split-works",
-            "tr/split-use",
-            "tr/pay-debts"
-          ],
+          "pages": ["tr/how-split-works", "tr/split-use", "tr/pay-debts"],
           "version": "TR"
         }
       ],
@@ -267,10 +232,7 @@
             "tr/clave-key-management",
             {
               "group": "Passkey Imzalama Sistemi",
-              "pages": [
-                "tr/passkeys-technical",
-                "tr/secure-enclave-technical"
-              ]
+              "pages": ["tr/passkeys-technical", "tr/secure-enclave-technical"]
             },
             {
               "group": "Kurtarma Yöntemleri",
@@ -286,17 +248,12 @@
       "version": "TR"
     },
     {
-      "group": "Clave",
-      "pages": [
-        "en/how-to-contribute-to-clave"
-      ],
+      "group": "Additional",
+      "pages": ["en/how-to-contribute-to-clave"],
       "version": "EN"
     }
   ],
-  "versions": [
-    "EN",
-    "TR"
-  ],
+  "versions": ["EN", "TR"],
   "anchors": [
     {
       "name": "Blog",
