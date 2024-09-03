@@ -46,11 +46,7 @@
               "pages": [
                 {
                   "group": "Android Users",
-                  "pages": [
-                    "en/google-password-manager",
-                    "en/bitwarden-android",
-                    "en/samsung-pass"
-                  ]
+                  "pages": ["en/google-password-manager", "en/bitwarden-android", "en/samsung-pass"]
                 },
                 {
                   "group": "Apple Users",
@@ -126,10 +122,7 @@
             },
             {
               "group": "Recovery Mechanisms",
-              "pages": [
-                "en/recovery-technical",
-                "en/zkemail-recovery-technical"
-              ]
+              "pages": ["en/recovery-technical", "en/zkemail-recovery-technical"]
             }
           ]
         },
@@ -156,11 +149,7 @@
               "pages": [
                 {
                   "group": "Android Kullanicilari",
-                  "pages": [
-                    "tr/google-password-manager",
-                    "tr/bitwarden-android",
-                    "tr/samsung-pass"
-                  ]
+                  "pages": ["tr/google-password-manager", "tr/bitwarden-android", "tr/samsung-pass"]
                 },
                 {
                   "group": "Apple Kullanicilari",
@@ -236,10 +225,7 @@
             },
             {
               "group": "Kurtarma Yöntemleri",
-              "pages": [
-                "tr/recovery-technical",
-                "tr/zkemail-recovery-technical"
-              ]
+              "pages": ["tr/recovery-technical", "tr/zkemail-recovery-technical"]
             }
           ]
         },
@@ -249,7 +235,7 @@
     },
     {
       "group": "Additional",
-      "pages": ["en/how-to-contribute-to-clave"],
+      "pages": ["en/how-to-contribute-to-clave", "en/how-to-delete-account"],
       "version": "EN"
     }
   ],
