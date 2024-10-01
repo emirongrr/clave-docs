@@ -63,10 +63,21 @@
                     "en/bitwarden-apple",
                     "en/passkey-rename"
                   ]
+                },
+                {
+                  "group": "Log-In and Log-Out",
+                  "pages": [
+                    "en/logout-clave",
+                    "en/login-clave"
+                  ]
                 }
               ]
             },
             "en/custom-tokens",
+            "en/refer-a-user",
+            "en/changing-theme",
+            "en/changing-language",
+            "en/balance-visibility",
             "en/problem-solving"
           ],
           "version": "EN"
@@ -76,7 +87,8 @@
           "pages": [
             "en/how-to-send-money-via-clave",
             "en/how-to-send-money-with-link",
-            "en/how-to-withdraw"
+            "en/how-to-withdraw",
+            "en/how-to-receive"
           ],
           "version": "EN"
         },
