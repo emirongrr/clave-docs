@@ -3,7 +3,7 @@
 <!--
     * ADDING OR UPDATING A Language
     *
-    * Make sure that you are following the [contributing guideline](https://docs.getclave.io/en/how-to-contribute-to-clave) and this PR template before submitting a PR.
+    * Make sure that you are following the [contributing guideline](https://docs.getclave.com/en/how-to-contribute-to-clave) and this PR template before submitting a PR.
     *
     * If you are adding a new language or updating an existing language, start by selecting the relevant options.
     *
@@ -14,7 +14,7 @@
 
 -   [ ] I am adding a new language
 -   [ ] I am updating an existing language
--   [ ] I have read the [contribution guidelines](https://docs.getclave.io/en/how-to-contribute-to-clave) and followed the rules accordingly
+-   [ ] I have read the [contribution guidelines](https://docs.getclave.com/en/how-to-contribute-to-clave) and followed the rules accordingly
 
 ### Locale details
 
